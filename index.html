@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Unsold</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+     
+
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <img src="images/logo2.PNG" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Suntainable</a></li>
+                    <li><a href="">Tourism</a></li>
+                </ul>
+            </nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn" onclick="togglemenu()">
+                <i class="fas fa-bars"></i>
+            </label>
+            
+        </div>
+        <div class="title">
+            <h3><i class="fa-regular fa-clock" id="clock"></i>ONLY TAKES 30 SECONDS!</h3>
+        </div>
+        <div class="row grid-container">
+
+
+            <div>
+
+
+                <div class="col-2 item3">
+                    <div class="heading_col2">
+                        <h2><i class='far fa-user-circle'></i>Traveler Info</h2>
+                    </div>
+                    <div class="form-wrap fullname">
+                        <div class="form-item phn">
+                            <div class="first">
+
+                                <input type="text" placeholder="First Name">
+
+
+                            </div>
+
+                            <div class="last">
+                                <input type="text" placeholder="Last Name">
+
+
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="form-wrap select-box form-item phn1">
+                        <div class="first1">
+                            <input type="text" class="email" placeholder="Email Address">
+
+                        </div>
+                        
+                        <div class="phn2" >
+                            <div class="num">
+                            <select name="number" class="number-code ">
+                                <option>+1</option>
+                                <option>+880</option>
+                            </select>
+                            </div>
+                            <div class="phn-number">
+                                <input type="text" placeholder="Phone Number">
+
+                            </div>
+                        
+                                
+
+                        </div>
+                        
+
+                        
+                    </div>
+                    <div class="btn">
+                        <input type="submit" value="COMPLETE RESERVATION NOW">
+                    </div>
+
+                </div>
+                <div class="col-3 item2">
+                    <div class="headin-col3">
+                    <h2> <i class='fas fa-lock'></i> Secure Booking</h2>
+                    </div>
+                    <div class="des">
+                        <h4><i class="fa-regular fa-circle-check"></i> 3 Nights in a Cape Cod, MA Hotel for up to 2 Adults & 2 Children</h4>
+                        <h4><i class="fa-regular fa-circle-check"></i> Up to 24 Months to travel</h4>
+                        <h4><i class="fa-regular fa-circle-check"></i> You Save 70% & will see exact hotel & laction when locking in dates</h4>
+
+                    </div>
+                
+
+                </div>
+
+            </div>
+                
+                <div class="col-1">
+                    <img src="images/package_card_image_4.jpg" class="controller">
+                    <h2 class="heading">Cape Cod, MA</h2>
+                    <h4 class="head">UNSOLD SAVER DEAL</h4>
+                    <h1 class="trip">TRIP SUMMURY</h1>
+                    <h4 class="hotel"><i class='fas fa-map-marker-alt' id="location"></i> 4 Days / 3 Nights hotel Accommodations</h4>
+                    <h4 class="trav"><i class='fas fa-map-marker-alt' id="location"></i> Travelers 2 Adults, 2 Children</h4>
+
+                    <!-- <div class="cal">
+                        <div class="cal1">
+                            <div class="night">
+                                <h4>3 Nights</h4>
+                            </div>
+                            <div class="caln">
+                                <h4>420,593LBP</h4>
+                            </div>
+                        </div>
+                        
+                    </div> -->
+                    <div class="cal">
+                        <div id="HASH" class="blue-msg">
+                            <div id="left">
+                                <span id="time-HASH" class="smalltext">3 Nights</span>
+                            </div>
+                            <div id="right">
+                                 <span class="ios-circle">420,593LBP</span>
+                            </div>
+                            
+                        </div>
+                        <div class="hor">
+                            <hr class="solid">
+                        </div>
+                        <div id="HASH" class="blue-msg">
+                            <div id="left">
+                            <span id="time-HASH" class="smalltext">Taxes and/or booking fees</span>
+                            </div>
+                            <div id="right">
+                            <span class="ios-circle">28793.25LBP</span>
+                            </div>
+                            
+                        </div>
+                        <div id="HASH" class="blue-msg1">
+                            <div id="left">
+                            <span id="time-HASH" class="smalltext">Total</span>
+                            </div>
+                            <div id="right">
+                            <span class="ios-circle">449385.75LBP</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+
+                </div>
+           
+
+        </div>
+        <div class="footer">
+            <div class="footer-img">
+                <img src="images/logo2.PNG" alt="">
+            </div>
+            <div class="footer-menu col-6">
+                <a href="#">About us</a>
+                <a href="#about-me-id">Contact us</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">GDPR Policy</a>
+                <a href="#">Sustainable</a>
+                <a href="#">Tourism</a>
+        
+        
+            </div>
+        
+            <div class="footer-desc col-6">
+                <a href="#">Unsold</a>
+                <a href="#">|</a>
+                <a href="#" id="all">All Rights Reserved</a>
+                <a href="#">|</a>
+                <a href="#">Privacy Policy</a>      
+            </div>
+        
+        
+        </div>
+    </div>
+    
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px"){
+                menuList.style.maxHeight = "130px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+
+
+    
+</body>
+</html>
